@@ -12,7 +12,7 @@ import pandas as pd
 
 data = np.zeros((200,5), dtype=float)
 
-np.random.seed(42)
+np.random.seed(39)
 data[:100,4] = 0
 data[100:,4] = 1
 
